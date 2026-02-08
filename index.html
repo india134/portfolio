@@ -63,7 +63,7 @@
     <nav class="sticky top-0 z-50 bg-gray-900/90 backdrop-blur-sm shadow-lg">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-16">
-                <a href="#hero" class="text-xl font-extrabold text-blue-400 tracking-widest">ML PORTFOLIO</a>
+                <a href="#hero" class="text-xl font-extrabold text-blue-400 tracking-widest">AI/ML PORTFOLIO</a>
                 <div class="hidden md:flex space-x-6 text-sm font-medium">
                     <a href="#projects" class="hover:text-blue-400 transition duration-300">Projects</a>
                     <a href="#skills" class="hover:text-blue-400 transition duration-300">Skills</a>
@@ -121,6 +121,39 @@
         <section id="projects" class="py-16">
             <h2 class="text-4xl font-bold text-center mb-12 text-blue-400">Featured Projects <span class="text-gray-200">/ Technical Highlights</span></h2>
             <div class="space-y-16">
+                <!-- Project: End-to-End Financial LLM Inference System -->
+<div class="bg-gray-800 rounded-xl p-6 lg:p-10 shadow-2xl border border-gray-700 hover:border-blue-500 transition duration-500 group">
+    <h3 class="text-3xl font-semibold mb-3 text-white group-hover:text-blue-400 transition duration-300">
+        End-to-End Financial LLM Inference System
+    </h3>
+    <p class="text-gray-400 mb-4 text-sm font-medium">Qwen-2 (0.5B) · LoRA Fine-Tuning · FastAPI Inference</p>
+    <p class="text-gray-300 mb-6">
+        Built and deployed an end-to-end <b>Financial LLM inference pipeline</b> by fine-tuning <b>Qwen-2 (0.5B)</b> on a proprietary financial instruction dataset using <b>LoRA</b>, followed by weight merging for standalone inference. Designed a <b>FastAPI-based CPU inference service</b>, Dockerized and deployed in production, handling real-world issues like cold starts, dependency resolution, model loading failures, and runtime crashes. Optimized inference latency (~5–20s for 100–250 tokens) through prefill–decode separation, reduced prompt tokenization overhead, deterministic decoding, and CPU quantization experiments.
+    </p>
+    <div class="flex flex-wrap gap-2 mb-6">
+        <span class="bg-blue-900/50 text-blue-300 text-xs font-medium px-3 py-1 rounded-full">Qwen-2</span>
+        <span class="bg-blue-900/50 text-blue-300 text-xs font-medium px-3 py-1 rounded-full">LoRA Fine-Tuning</span>
+        <span class="bg-blue-900/50 text-blue-300 text-xs font-medium px-3 py-1 rounded-full">LLM Inference</span>
+        <span class="bg-blue-900/50 text-blue-300 text-xs font-medium px-3 py-1 rounded-full">FastAPI</span>
+        <span class="bg-blue-900/50 text-blue-300 text-xs font-medium px-3 py-1 rounded-full">Docker</span>
+        <span class="bg-blue-900/50 text-blue-300 text-xs font-medium px-3 py-1 rounded-full">Latency Optimization</span>
+    </div>
+    <div class="flex flex-wrap gap-4">
+        <a href="<!-- DEMO LINK -->" target="_blank" class="flex items-center gap-2 text-white bg-blue-600 hover:bg-blue-700 py-2 px-4 rounded-lg font-medium transition duration-300">
+            <svg class="icon w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 13a5 5 0 0 0 7.54.5l3-3a5 5 0 0 0-7.07-7.07l-3 3a5 5 0 0 0-.54 7.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+            Demo Video
+        </a>
+        <a href="<!-- CODE LINK -->" target="_blank" class="flex items-center gap-2 text-gray-300 hover:text-blue-400 border border-gray-600 hover:border-blue-500 py-2 px-4 rounded-lg transition duration-300">
+            <svg class="icon w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
+            Code Link
+        </a>
+        <a href="<!-- REPORT LINK -->" target="_blank" class="flex items-center gap-2 text-gray-300 hover:text-blue-400 border border-gray-600 hover:border-blue-500 py-2 px-4 rounded-lg transition duration-300">
+            <svg class="icon w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><path d="M14 2v6h6"/></svg>
+            Report Link
+        </a>
+    </div>
+</div>
+
 
                 <!-- NEW Project 1: Freelancer Project Price Estimator -->
                 <div class="bg-gray-800 rounded-xl p-6 lg:p-10 shadow-2xl border border-gray-700 hover:border-blue-500 transition duration-500 group">
@@ -441,9 +474,9 @@
                             <p class="text-sm text-gray-400">All India Rank (AIR)-2954.</p>
                         </div>
                         <div class="border-l-4 border-blue-500 pl-4">
-                            <p class="font-bold text-lg text-white">Independent Technical Blogger</p>
+                            <p class="font-bold text-lg text-white">Concepts of AI (YouTube)⁠</p>
                             <!-- Updated blog link to the specific LinkedIn newsletter URL -->
-                            <p class="text-sm text-gray-400">Authored 20+ in-depth technical articles and launched a <a href="https://www.linkedin.com/newsletters/7254716936607961088/" target="_blank" class="text-blue-400 hover:text-blue-300 underline">LinkedIn newsletter</a> with 200+ subscribers.</p>
+                            <p class="text-sm text-gray-400">Simplifying AI/ML concepts on my YT channel <a href="https://www.youtube.com/@ConceptsofAI" target="_blank" class="text-blue-400 hover:text-blue-300 underline">LinkedIn newsletter</a> with 200+ subscribers.</p>
                         </div>
                     </div>
                 </div>
@@ -491,5 +524,6 @@
 
 </body>
 </html>
+
 
 
